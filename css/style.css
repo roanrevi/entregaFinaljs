@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgb(248, 243, 238);
+    box-shadow:2px 2px 2px 1px rgb(107, 106, 106);
+}
+.content p{
+    text-align: justify;
+    border-bottom: 1px solid grey;
+    
+    margin: 10px 0;
+    padding: 30px;
+}
+.content h3{
+    text-align: center;
+    
+    margin: 10px 0;
+}
+h2{
+    text-align: center;
+    
+    margin: 10px 0;
+}
+iframe{
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    margin:0 200px;
+}
+img{
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    margin:30px 200px;
+}

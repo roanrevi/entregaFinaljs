@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 20, 20);
+    background-image: url("../img/marvel_wallpaper.jpg");
+}
+.content{
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    justify-content: space-around;
+    
+}
+.content img{
+    width: 50%;
+    height: 40%px;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid grey;
+    box-shadow:2px 2px 2px 1px rgb(107, 106, 106);
+}
+.content h3{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.content a{
+    text-decoration: none;
+    color: rgb(8, 207, 246);
+}
+.encabezado{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+
+
+}
+.encabezado a{
+    padding: 30px;
+    margin: 30px;
+}
+.nombre{
+    margin: 30px;
+    padding: 50px;
+    height: 50px;
+}
+.encabezado select{
+    padding: 10px;
+    width: 300px;
+}
