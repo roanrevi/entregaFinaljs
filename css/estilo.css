@@ -17,8 +17,8 @@ body{
     
 }
 .content img{
-    width: 50%;
-    height: 40%px;
+    width: 25rem;
+    height: 20rem;
     margin: auto;
     display: flex;
     border-bottom: 1px solid grey;
@@ -28,11 +28,14 @@ body{
     text-align: center;
     padding: 10px;
     margin: 10px;
+    color: rgb(8, 207, 246);
+    font-size: 3rem;
 
 }
 .content a{
     text-decoration: none;
     color: rgb(8, 207, 246);
+    color: white;
 }
 .encabezado{
     display: flex;
@@ -44,6 +47,7 @@ body{
 .encabezado a{
     padding: 30px;
     margin: 30px;
+    
 }
 .nombre{
     margin: 30px;
