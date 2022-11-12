@@ -33,7 +33,7 @@ const mostrarInfoPersonaje=(e)=>{
     let getValue= select.value
     //console.log('Salida de datos', dataHero ,getValue)
     let getHero=dataHero.filter(element=>element.id==getValue)
-    //console.log('Buscar', getHero)
+    console.log('Buscar', getHero)
     $('#modalInfoHero').modal('toggle');
     let series = getHero[0].series.items
     let name=getHero[0].name
