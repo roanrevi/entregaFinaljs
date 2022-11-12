@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../css/headers.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
-    
-
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
-    
-    <title>Consulas a Marvel</title>
+    <title>Buscador Marvel</title>
 </head>
 <body>
-
-    
-    <main>
-
     <header class="encabezado">
         <div class="nombres" id ="nombres">
-            <p  class="" >
-                <span class="">Personajes Marvel</span>
-            </p>
-            <select name="Nombre del Personaje" id="nameavenger">
-                <!-- <option  id="nombrePersonaje">
-                    roy, andres, aposs,sksks
-                </option> -->
+    
+            <select name="Nombre del Personaje" class="form-select" id="nameavenger">
+                <option  value="-1"> Buscar Personaje                 
+                </option>
             </select>
-            <button class= "busqueda" id="buscarPersonaje">Buscar Personaje</button>
+            
         </div>
     </header>
-    <div class="content" id="contenedor">
-
-
-        </div>
-        <a href=""><img src="./img/marvellogo.jpg" alt="">    
-        
-    </div>
-
+    <main>
+        <div class="content" id="contenedor">
+            </div>
+            
+            </div>
+            <div class="modal fade" id="modalInfoHero" tabindex="-1"         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Series del personaje</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="modal-text">
+                    <h3 id="serie"></h3>
+                    </div>
+                    <div class="modal-footer">
+                        
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+                </div>
+            </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="../codigo.js/marvel.js"></script>
-
+</body>
 </html>
